@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To add row in a table using JS</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid red;
+            background: #105dc2;
+
+        }
+
+        table.centre {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn {
+            /* text-align: center;
+            display: block;
+            margin: auto; */
+            
+            display:flex;
+            justify-content:center;
+            
+            
+            margin-top: 1%;
+        }
+
+         /* .btn:hover{
+             display: block;
+            background-color: blue;
+        } */
+
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <table id="Table" class="centre">
+        <!-- <tr>
+                <th>S.No</th>
+                <th>Institute</th>
+                <th>Percentage</th>
+            </tr> -->
+
+        <tr>
+            <td>Row</td>
+            <td>Row</td>
+            <td>Row</td>
+        </tr>
+    </table>
+    <div class="btn">
+        <input type="button" onclick="InsertRow()" value="Add Row">
+        <!-- <input type="button" onclick="DeleteRow()" value="Delete Row"> -->
+    </div>
+
+    <!-- <input type="button" onclick="InsertRow()" value="Add Row" > -->
+    <!-- <input type="button" onclick="DeleteRow()" value="Delete Row"> -->
+
+    <!-- <button class="btn">Add Row</button> -->
+
+    <script src="Task3.js"></script> 
+
+
+
+
+</body>
+
+</html>
